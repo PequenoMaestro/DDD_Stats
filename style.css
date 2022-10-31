@@ -1,0 +1,29 @@
+body {
+        width: 100vw;
+        overflow-x: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1,
+h2,
+h3 {
+        text-align: center;
+        font-weight: 300;
+}
+
+.title {
+        font-weight: 400;
+        font-size: xx-large;
+        color: rgb(136, 0, 181);
+}
+
+.plot-area {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        height: 70vh;
+}
+
+a {
+        color: rgb(82, 0, 109);
+}

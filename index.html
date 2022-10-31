@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Statistiken zum Dilettantische Duett</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Statistiken zum Dilettantischen Duett</h1>
+      <h3 id="Mittelwert">Mittelwert:</h3>
+      <h3 id="Median">Median:</h3>
+      <h3 id="Standardabweichung">Standardabweichung:</h3>
+      <div class="plot-area" id="plotArea1"></div>
+      <div class="plot-area" id="plotArea2"></div>
+
+      <h3>
+        <a href="https://www.dasdilettantischeduett.de/"
+          >Hier geht es zur neusten Folge des Podcasts</a
+        >
+      </h3>
+    </main>
+
+    <script src="./statistics.min.js" type="text/javascript"></script>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="./papaparse.min.js"></script>
+    <script src="plot.js"></script>
+  </body>
+</html>
